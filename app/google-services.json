@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482517170631",
+    "project_id": "mertinox-bc492",
+    "storage_bucket": "mertinox-bc492.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482517170631:android:abd292187d3424b87cc1e2",
+        "android_client_info": {
+          "package_name": "eryaz.software.mertinox"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0jHDPYfh8Z2h15Soc4AHrrXDfck_ORK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
