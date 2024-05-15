@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import eryaz.software.mertinox.data.models.dto.ProductDto
 import eryaz.software.mertinox.databinding.FragmentQueryStorageBinding
 import eryaz.software.mertinox.ui.base.BaseFragment
-import eryaz.software.mertinox.ui.dashboard.query.adapter.ShelfProductQuantityAdapter
+import eryaz.software.mertinox.ui.dashboard.query.adapter.ShelfQuantityAdapter
 import eryaz.software.mertinox.ui.dashboard.query.adapter.StorageProductQuantityAdapter
 import eryaz.software.mertinox.ui.dashboard.recording.dialog.ProductListDialogFragment
 import eryaz.software.mertinox.util.extensions.hideSoftKeyboard
@@ -84,7 +84,7 @@ class QueryStorageFragment : BaseFragment() {
     }
 
     private val shelfAdapter by lazy(LazyThreadSafetyMode.NONE) {
-        ShelfProductQuantityAdapter().also {
+        ShelfQuantityAdapter().also {
             binding.recyclerViewForShelf.adapter = it
         }
     }
